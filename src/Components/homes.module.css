@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Landingscreen */
+.nav{
+      width: 100%;
+      height: 48.8px;
+      background-color: #FFFFFF;
+      box-shadow: 1px 0px 1px black;
+      display: flex; 
+      align-items: center;      
+}
+.nav_item{
+    padding-left: 10px;  
+}
+.nav_item1{
+    padding-left: 10px;
+    font-weight: 600;
+}
+.item_box{
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+}
+.box{
+      width: 275px;
+      height: 560px;
+      opacity: 1;
+      background-color: #F7F8F9;
+      border: 1px solid black;
+      margin-top: 33px;
+      cursor: pointer;               
+}
+.heading{
+      width: 190px; 
+      height: 33px;
+      color:#1D2226;
+      opacity: 1;  
+      margin-top: 350px;
+      margin-left: 1rem;       
+}
+.paragraph{
+      width: 230px;
+      height: 48px;
+      font:normal normal normal 18px/26px Rubik;
+      letter-spacing: 0px;
+      color:#1D2226;
+      opacity: 0.6;
+      margin-left: 12px;
+      padding: 4px;
+}
+.btn_2_3{
+      width: 100%;
+      padding-left: 1rem;
+}
+.btn1{
+   
+      height: 33px;
+      border-radius: 10px;
+      opacity: 1;
+      width: 95%;
+      margin-top: 1rem;
+      background: #6C25FF 0% 0% no-repeat padding-box;
+      color: #fff;
+      border: none;
+}
+.btn2{
+  
+       height: 33px;
+       border-radius: 10px;
+       opacity: 1;
+       width: 95%;
+       margin-top: 1rem;
+       background: #6C25FF4B 0% 0% no-repeat padding-box;
+       color:#000;
+       border: none;
+       font-weight: 600;
+}
+/* Login screen */
+.heading_login{
+      width: 170px;
+      margin-top: 30px;
+      font: normal normal medium 28px/36px Rubik;
+      color: #1D2226;
+      opacity: 1;
+      margin-left: 1rem;
+}
+.paragraph_login{
+      font: normal normal normal 18px/26px Rubik;
+      color: #1D2226;
+      opacity: 0.6;
+      width:240px;
+      margin-left: 13px;
+      padding: 4px;
+}
+.log_field_box{
+     width: 100%;
+     height: 13vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 1rem;
+}
+.field{
+     width: 88%;
+     border-radius: 8px;
+     margin-top: 4px;   
+}
+.login_items{
+     color: #6C25FF;
+     margin-left: 13px; 
+     width: 100px;
+     opacity: 1; 
+}
+.ip{
+     width: 100%;  
+     background-color:  white;
+     opacity: 1;
+     border: none;
+     padding: 5px;
+     background: transparent; 
+}
+.ip:focus {
+     outline: none;
+}
+.log_btn{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding-top: 1.8rem;
+}
+.btn_click{
+     height: 33px;
+     border-radius: 10px;
+     opacity: 1;
+     width: 90%;
+     background: #CBCBCB 0% 0% no-repeat padding-box;
+     border: 1px solid white;
+     color: #fff;
+     font-weight: 600;
+     font-size: 1rem;   
+}
+/* Sign_Up */
+.fieldbox{
+     width: 100%;
+     height: 33vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 0.2rem;
+     margin-top: 1rem;
+}
+.label{   
+     width: 100px;
+     height: 15px;
+     text-align: left;
+     font: normal normal normal 13px/17px Rubik;
+     letter-spacing: 0px;
+     color: #6C25FF;
+     opacity: 1;
+     margin-left: 10px;
+     display: flex;
+     border-radius: 10px;
+     justify-content: center;   
+}
+.label:after {
+        content:" *";
+        color: red;
+}
+.ip{
+     width: 90%;  
+     background-color:  white;   
+     opacity: 1;
+     border: none;
+     padding: 3px;
+     background: transparent; 
+}
+.ip:focus {
+     outline: none;
+}
+::placeholder{
+     font-weight: 700;
+     color: #CBCBCB;
+}
+.agreecontent{
+     padding-top: 1rem;
+     height: 16vh;
+     width: 100%;
+     margin-left: 10px;
+}
+.radio_btn{
+     width: 50%;
+}
+.radio_btn1{
+     width: 25%;
+}
+.radio_btn2{
+     width: 25%;
+}
+.signup_btn{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding-top: 4rem;
+}
+.btn_click1{
+     height: 33px;
+     border-radius: 10px;
+     opacity: 1;
+     width: 90%;
+     background: #6C25FF 0% 0% no-repeat padding-box;
+     border: 1px solid white;
+     color: #fff;
+     font-weight: 600;
+     font-size: 1rem; 
+}
+/* profile page */
+.box_header{
+     width: 100%;
+     height: 55px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     box-shadow: 0px 3px 6px #00000007;
+     opacity: 1;
+     border: 1px solid white;   
+}
+.box_heading{
+     width: 100%;
+     height: 55px;
+     color: #1D2226;
+     opacity: 1;
+     margin-top: 1rem;
+     margin-right:1.5rem;
+}
+.profile_images{
+   
+     width: 70%;
+     height: 130px;
+     display: flex;
+     justify-content: space-between;  
+}
+.image1{
+     width: 50%;
+     height: 70px;
+     display: flex; 
+     margin-top: 25px;
+     margin-left: 14px;
+     justify-content: space-evenly;   
+}
+
+ .image2{ 
+     height: 2rem; 
+     width: 1.5rem;
+     padding-top: 4.5rem;
+     transform: translateX(-1rem);
+ } 
+ #image2{
+     height: 1.5rem;
+     width: 1.5rem;
+}  
+.header{
+     margin-top: 30px;
+}
+.profile_para{
+     margin-left: 10px;
+}
+.item_last{
+     display: flex;
+     justify-content: center; 
+     align-items: center;
+}
+.item_form{
+     padding: 10px;
+     margin-top: 5px;
+     margin-right: 10px;
+     color: #CBCBCB;
+     font-weight: 700;
+}
+.item_lt{
+     padding: 2px;
+     margin-top: 5px;
+     font-weight: 800;
+     color: #CBCBCB;
+     cursor: pointer;  
+}
+.item_no{
+     padding: 10px;
+     color: #CBCBCB;
+     font-weight: 800;
+}
+.item_gt{
+     padding: 2px;
+     margin-top: 5px;
+     color: #CBCBCB; 
+     font-weight: 900; 
+     cursor: pointer;
+}
+.devtask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.devtask1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100vh;
+}
+.btn_devtask{
+    margin-left: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3px;
+}
+.icons{
+     padding-left: 6px;
+}
+.gt_devtask{
+    padding-left:   10px;
+}
+ .devtask_landing{ 
+    margin-left: 40px; 
+} 
+.devtask_login{
+    padding-left: 20px;
+      
+}
+.devtask_signup{
+    padding-left: 20px;
+}
+.devtask_profile{
+    padding-left: 20px;
+}  
+
+
+
+
+
+
+
+
